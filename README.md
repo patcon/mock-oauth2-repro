@@ -34,14 +34,14 @@ Instead I get a token like this:
 
 ```json
 {
-  "sub": "59aa42ba-89eb-4ea5-8e09-e27fe2ee2569",
+  "sub": "f39ce79b-2096-4551-b766-b0e0429ba7ea",
   "aud": "bar",
-  "nbf": 1652220866,
+  "nbf": 1652221507,
   "azp": "bar",
   "iss": "http://localhost:8080/issuer1",
-  "exp": 1652224466,
-  "iat": 1652220866,
-  "jti": "b4b2ee86-9256-494a-85b8-06088c110d41",
+  "exp": 1652225107,
+  "iat": 1652221507,
+  "jti": "59df2229-4d79-4a63-969f-2a4c53c872f3",
   "tid": "issuer1"
 }
 ```
@@ -49,5 +49,5 @@ Instead I get a token like this:
 ![](https://i.imgur.com/yxDcPWj.png)
 
 
-   [example-token]: https://jwt.io/?token=eyJraWQiOiJpc3N1ZXIxIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI1OWFhNDJiYS04OWViLTRlYTUtOGUwOS1lMjdmZTJlZTI1NjkiLCJhdWQiOiJiYXIiLCJuYmYiOjE2NTIyMjA4NjYsImF6cCI6ImJhciIsImlzcyI6Imh0dHA6XC9cL2xvY2FsaG9zdDo4MDgwXC9pc3N1ZXIxIiwiZXhwIjoxNjUyMjI0NDY2LCJpYXQiOjE2NTIyMjA4NjYsImp0aSI6ImI0YjJlZTg2LTkyNTYtNDk0YS04NWI4LTA2MDg4YzExMGQ0MSIsInRpZCI6Imlzc3VlcjEifQ.FVWKio0sQf3eyYu_LAirrnb-PCRZ6uhdQlIwcKRbNn1fO1RV9cUA27L09CHD2JKmW1833ICTvVBXT_lIvAzVhKw0lDALohqawE2x2ndT5smiqJnS9zozZrb1apuU0vIzsIjGmEfGPh82GJuwiH3CuJ5yIRBNRtkS4Q63anBC2EKVBSgVQQ9xVy5ih8w97RffgQ6u0a72f8HhSBe7jujbB-aWorOZswg1dSQgD9uaB5Pz1rlAoAz8ObXERVPYy66iFhd1UpnrPFb2p-cldjFEhhu3OfGComeCsXJtv8pYI2_kQInaGb_12lObhrp1jDQQPF36Yt-MrcRdkQEmtJx8BQ
+   [example-token]: https://jwt.io/?token=eyJraWQiOiJpc3N1ZXIxIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiJmMzljZTc5Yi0yMDk2LTQ1NTEtYjc2Ni1iMGUwNDI5YmE3ZWEiLCJhdWQiOiJiYXIiLCJuYmYiOjE2NTIyMjE1MDcsImF6cCI6ImJhciIsImlzcyI6Imh0dHA6XC9cL2xvY2FsaG9zdDo4MDgwXC9pc3N1ZXIxIiwiZXhwIjoxNjUyMjI1MTA3LCJpYXQiOjE2NTIyMjE1MDcsImp0aSI6IjU5ZGYyMjI5LTRkNzktNGE2My05NjlmLTJhNGM1M2M4NzJmMyIsInRpZCI6Imlzc3VlcjEifQ.XIxs-KeO84GXAN7K3N0TRu0V8-qTKvIaOnsV-9ah5X6sBD0pf2dU-5bCXqxIGUO2d6w-E3tL5Hsz56Oj9yXPSER3RjGKQQn_Y6fyAY-dJKe48QBJBYnwMqGB53meP-s9fdFsd80V9y7PiVISbB7P5BTXcfiKrPUitgvtH8lguKadlV7hgSF18_Hu5-7-RacoqiQdqpC1JXdrXfrQwhqIdvjUrnTzydIYzPnYENNrPkMJnRLl9LtZWvcVtKCqC8FT65el704Yb7O_l-jsTrY_6jtmuL1p2g1m_4Kc0sXrZnbm6CGmoCXsGvjRAURK8XPohuO28YK1jShKgIc3KlJTsQ
    [readme-ref]: https://github.com/navikt/mock-oauth2-server#:~:text=return%20a%20token%20response%20containing%20a%20token%20with%20the%20following%20claims
