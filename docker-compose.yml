@@ -1,11 +1,50 @@
 services:
   # See: https://github.com/navikt/mock-oauth2-server#standalone-server
   mock-oauth2-server:
-    image: ghcr.io/navikt/mock-oauth2-server:0.4.7
+    image: ghcr.io/navikt/mock-oauth2-server:0.3.6
     ports:
       - 8080:8080
     hostname: localhost
     volumes:
       - ./conf:/app/conf
     environment:
-      - JSON_CONFIG_PATH=/app/conf/config.json
+      JSON_CONFIG_PATH: /app/conf/config.json
+      # Uncomment to see the same config start working.
+#      JSON_CONFIG: |
+#        {
+#            "interactiveLogin": true,
+#            "httpServer": "NettyWrapper",
+#            "tokenCallbacks": [
+#                {
+#                    "issuerId": "issuer1",
+#                    "tokenExpiry": 120,
+#                    "requestMappings": [
+#                        {
+#                            "requestParam": "scope",
+#                            "match": "scope1",
+#                            "claims": {
+#                                "sub": "subByScope",
+#                                "aud": [
+#                                    "audByScope"
+#                                ]
+#                            }
+#                        }
+#                    ]
+#                },
+#                {
+#                    "issuerId": "issuer2",
+#                    "requestMappings": [
+#                        {
+#                            "requestParam": "someparam",
+#                            "match": "somevalue",
+#                            "claims": {
+#                                "sub": "subBySomeParam",
+#                                "aud": [
+#                                    "audBySomeParam"
+#                                ]
+#                            }
+#                        }
+#                    ]
+#                }
+#            ]
+#        }
